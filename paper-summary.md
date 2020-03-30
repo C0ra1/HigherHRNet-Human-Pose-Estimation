@@ -1,10 +1,14 @@
 # Deep High-Resolution Representation Learning for Human Pose Estimation (CVPR 2019)论文阅读
 
->高分辨率网络解决人体姿态估计问题
+高分辨率网络解决人体姿态估计问题
 **论文：**[Deep High-Resolution Representation Learning for Human Pose Estimation - CVPR2019](https://arxiv.org/abs/1902.09212 "1")
+
 **作者：**Ke Sun1, Bin Xiao, Dong Liu, Jingdong Wang
+
 **团队：**University of Science and Technology of China, Microsoft Research Asia
+
 **代码：**[Github - deep-high-resolution-net.pytorch](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch "Github - deep-high-resolution-net.pytorch")
+
 **项目主页：**Projects - [Deep High-Resolution Representation Learning](https://jingdongwang2017.github.io/Projects/HRNet/index.html "Deep High-Resolution Representation Learning") 
 
 #### HRNets
