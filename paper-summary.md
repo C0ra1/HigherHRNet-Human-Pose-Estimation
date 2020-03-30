@@ -11,7 +11,8 @@
 代码：
 [Github - deep-high-resolution-net.pytorch](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch "Github - deep-high-resolution-net.pytorch")
 
-**项目主页：**Projects - [Deep High-Resolution Representation Learning](https://jingdongwang2017.github.io/Projects/HRNet/index.html "Deep High-Resolution Representation Learning") 
+项目主页：
+Projects - [Deep High-Resolution Representation Learning](https://jingdongwang2017.github.io/Projects/HRNet/index.html "Deep High-Resolution Representation Learning") 
 
 #### HRNets
 
@@ -190,12 +191,12 @@
 
 #### 3.2. MPII Human Pose Estimation
 
-> **数据集**：MPII 人体姿态数据集包含 25K 张图片，40K 个标注实例，其中 12K 用于测试。
->
-> **训练**：训练策略与 COCO 数据集上的训练一致，除了网络输入图片尺寸裁剪为 256×256，以便于对比。
->
-> **测试**：测试策略也基本与 COCO 数据集上的一致，除了采用提供的人体框，而不再进行人体框检测
->
-> **评价度量**：采用标准方式，PCKh(head-normalized probability of correct keypoint) score. 如果关节点位置位于 groundtruth 位置的 αl 个像素位置内，即认为关节点估计正确. 
->
+**数据集**：MPII 人体姿态数据集包含 25K 张图片，40K 个标注实例，其中 12K 用于测试。
+
+**训练**：训练策略与 COCO 数据集上的训练一致，除了网络输入图片尺寸裁剪为 256×256，以便于对比。
+
+**测试**：测试策略也基本与 COCO 数据集上的一致，除了采用提供的人体框，而不再进行人体框检测
+
+**评价度量**：采用标准方式，PCKh(head-normalized probability of correct keypoint) score. 如果关节点位置位于 groundtruth 位置的 αl 个像素位置内，即认为关节点估计正确. 
+
 > 其中，α 为常数，l 为 head 尺寸，其对应于 groundtruth 的头部边界框对角线长度的 60%. 一般采用 PCKh@0.5(α=0.5)。
